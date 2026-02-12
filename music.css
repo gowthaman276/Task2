@@ -1,0 +1,89 @@
+body {
+    background: linear-gradient(to right, #1f1c2c, #928dab);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.player {
+    width: 300px;
+    background: #131334;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
+
+.album img {
+    width: 150px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.album img:hover{
+    transform: scale(1.05);
+}
+
+.song-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+.song-title:hover{
+    transform: scale(1.05);
+}
+.artist {
+    font-size: 14px;
+    color: #aaa;
+    margin-bottom: 15px;
+}
+.artist:hover{
+    transform: scale(1.05);
+}
+
+.progress-container {
+    background: #444;
+    height: 6px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+
+}
+
+.progress {
+    width: 60%;
+    height: 100%;
+    background: #00c6ff;
+    border-radius: 10px;
+}
+.progress:hover{
+    transform: scale(1.05);
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.controls button {
+    background: #3c3c5e;
+    border: none;
+    color: white;
+    font-size: 15px;
+    padding: 10px 13px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.controls button:hover {
+    background: #00c6ff;
+    transform: scale(1.2);
+}
+
+.controls button:active {
+    transform: scale(0.8);
+}
